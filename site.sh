@@ -29,5 +29,5 @@ sudo echo "<VirtualHost *:80>
         ErrorLog /var/www/$1/logs/error.log
         CustomLog /var/www/$1/logs/access.log combined
 </VirtualHost>" >> /etc/apache2/sites-available/$1.conf
-sudo sed -i "1i\127.0.0.1	$1.local" /etc/hosts
+sudo sed -i "2i\127.0.0.1	$1.local" /etc/hosts
 sudo a2ensite $1.conf
