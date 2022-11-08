@@ -13,8 +13,8 @@ sudo echo "<VirtualHost *:80>
         ServerAdmin noonenome@sheet.bl
         ServerName $1.local
         ServerAlias www.$1.local
-        DocumentRoot /var/www/$1/public
-        <Directory /var/www/$1/public>
+        DocumentRoot /var/www/$1/public/web
+        <Directory /var/www/$1/public/webs>
                 Options Indexes FollowSymLinks
                 AllowOverride All
                 Order Deny,Allow
