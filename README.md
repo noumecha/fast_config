@@ -13,7 +13,9 @@ Fast-Config :)
  comming soon ...
 
 # Installation
-	- make sure you have a linux system
+	- you need to create a directory into your / (name it "siteweb")
+	- make sure your apache configuration is okay for debian based systems
+	- make sure you have a linux system (with systemctl type)
 	- just clone this repository
 	- add right to the file site.sh : # sudo chmod +x site.sh
 	- create the config : # ./site.sh site_name
