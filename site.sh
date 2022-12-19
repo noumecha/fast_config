@@ -14,7 +14,7 @@ sudo echo "<VirtualHost *:80>
         ServerName $1.local
         ServerAlias www.$1.local
         DocumentRoot /var/www/$1/public/web
-        <Directory /var/www/$1/public/webs>
+        <Directory /var/www/$1/public/web>
                 Options Indexes FollowSymLinks
                 AllowOverride All
                 Order Deny,Allow
