@@ -1,10 +1,12 @@
 # fast_config
-
+NB : for now the config file is must appropriate for drupal site local configuration [or server]
+	- if you want to use this more powerfully you need to several change the bash script inside the project
+	- but for the momen you can enjoy use it to configure your env fastly and save time :)
 # Name
 Fast-Config :)
 
 # Description
-	- so simple 
+	- so simple
 	- is just a bash file that help you to create a fast config for yout local website devellopement
 	- four this make sure that you have A standard file organisation for devellopment purpose
 
@@ -23,7 +25,7 @@ Fast-Config :)
 	- this will create :
 		+ a vhost for you wsite
 		+ configure the config file on you apache server
-		+ add the name of your local adress on the # /etc/hosts file		
+		+ add the name of your local adress on the # /etc/hosts file
 		+ now you can restard your server and continue to configure your wsite # :)
 	- more explanations comming soon ...
 
@@ -31,11 +33,11 @@ Fast-Config :)
 	- so simple just see the Installation before :)
 
 # Support
-	- tell me what happen and help me improve the projects 
+	- tell me what happen and help me improve the projects
 		+ noumechaivan@gmail.com
 
 # Roadmap
-	- i want to make this project more automate 
+	- i want to make this project more automate
 	- improve user interaction
 	- in just one line of code creating all the wsite directory
 
