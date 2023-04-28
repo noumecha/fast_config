@@ -30,3 +30,5 @@ sudo echo "
 </VirtualHost>" >> /etc/apache2/sites-available/$1.conf
 sudo sed -i "2i\127.0.0.1	$1.local" /etc/hosts
 sudo a2ensite $1.conf
+sudo systemctl reload apache2
+echo "your website $1 is now available at http://$1.local"
