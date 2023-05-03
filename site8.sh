@@ -31,4 +31,5 @@ sudo echo "
 sudo sed -i "2i\127.0.0.1	$1.local" /etc/hosts
 sudo a2ensite $1.conf
 sudo systemctl reload apache2
-echo "your website $1 is now available at http://$1.local"
+echo -e '\033[0;32mYour website configuration is now OK ...\033[m'
+echo "you can check it at : http://$1.local"
